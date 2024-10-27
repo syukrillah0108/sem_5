@@ -1,7 +1,3 @@
-# Belajar Pemrograman
-
-Ini adalah proyek website sederhana yang menampilkan halaman untuk belajar pemrograman.
-
 ## Halaman Utama (Home)
 [![Halaman Utama](./images/index.png)](index.html)
 
