@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sesi 4v2</title>
+</head>
+<body>
+    <button 
+        onclick="document.getElementById('demo').innerHTML=Date()">
+        Jam berapa sekarang ?
+    </button>
+    <p id="demo"></p>
+
+    <button onclick="this.innerHTML=Date()"> Jam berapa sekarang ?
+    </button>
+
+    <select id="hobi" onchange="myHoby()">
+        <option value="hobi_lari">Berlari</option>
+        <option value="hobi_renang">Berenang</option>
+    </select>
+    <p id="inputhobi"></p>
+    <p>input dari prompt<p id="val_promt">test</p></p>
+</body>
+<script lang="javascript">
+    //alert("Ini pesan Java Script");
+    document.write("<h1>Ini adalah header 1</h1>");
+    document.write("<p>Ini adalah paragraph</p>");
+
+    var hobi = prompt("Hobi anda apa");
+    document.getElementById("val_promt").innerHTML = hobi;
+
+    function myHoby(){
+        var x = document.getElementById("hobi").value;
+        document.getElementById("inputhobi").innerHTML = "Anda memilih : " + x;
+    }
+</script>
+</html>
