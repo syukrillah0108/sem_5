@@ -1,6 +1,5 @@
 Home
 
-
 ### 1. Analisis UI/UX Game "Lokapala"
 
 1. **Home**:
