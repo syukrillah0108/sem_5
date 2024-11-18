@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kursus Python</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Kursus Python</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link active" href="courses.html">Courses</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    
+    <div class="jumbotron text-center bg-primary text-white">
+        <h1>Belajar Kapan Saja, Di Mana Saja</h1>
+        <p>Temukan kursus yang Anda butuhkan untuk meningkatkan keterampilan Anda!</p>
+    </div>
+
+    
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Cari kursus..." id="searchInput">
+            </div>
+            <div class="col-md-6 text-right">
+                <select class="form-control" id="categoryFilter">
+                    <option value="all">Semua Kategori</option>
+                    <option value="basic">Basic</option>
+                    <option value="menengah">Menengah</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="container mt-5">
+        <div class="row" id="coursesList">
+
+            <div class="col-md-4 mb-4 course-item" data-category="basic">
+                <div class="card h-100">
+                    <img src="assets/images/Pythons-len-Function_Watermarked.056de9852b3f.avif" class="card-img-top" alt="Python Course">
+                    <div class="card-body">
+                        <h5 class="card-title">Using the len() Function in Python</h5>
+                        <p class="card-text">Kursus Penggunaan fungsi len() di Python.</p>
+                        <p class="text-muted">Durasi: 10 Jam | Harga: Rp 500,000</p>
+                        <a href="details.html" class="btn btn-primary">Lihat Detail</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4 course-item" data-category="basic">
+                <div class="card h-100">
+                    <img src="assets/images/UPDATE-Variables-in-Python_Watermarked.7d8b51f3adad.avif" class="card-img-top" alt="JavaScript Course">
+                    <div class="card-body">
+                        <h5 class="card-title">Variables in Python: Usage and Best Practices</h5>
+                        <p class="card-text">Pelajari Belajar membuat variabel dan penggunaan variabel dengan baik.</p>
+                        <p class="text-muted">Durasi: 12 Jam | Harga: Rp 600,000</p>
+                        <a href="details.html" class="btn btn-primary">Lihat Detail</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4 course-item" data-category="basic">
+                <div class="card h-100">
+                    <img src="assets/images/Python-Pit-Stop-Articles_Red_Watermarked.868eed0ee07e.avif" class="card-img-top" alt="Web Design Course">
+                    <div class="card-body">
+                        <h5 class="card-title">The Python Square Root Function</h5>
+                        <p class="card-text">Pelajari fungsi dan implementasi sqrt.</p>
+                        <p class="text-muted">Durasi: 8 Jam | Harga: Rp 4Beautiful Soup: Build a Web Scraper With Python00,000</p>
+                        <a href="details.html" class="btn btn-primary">Lihat Detail</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4 course-item" data-category="menengah">
+                <div class="card h-100">
+                    <img src="assets/images/Build-a-Web-Scraper-With-Requests-and-Beautiful-Soup_Watermarked.37918fb3906c.avif" class="card-img-top" alt="Digital Marketing Course">
+                    <div class="card-body">
+                        <h5 class="card-title">Beautiful Soup: Build a Web Scraper With Python</h5>
+                        <p class="card-text">Pelajari metode scraping di website.</p>
+                        <p class="text-muted">Durasi: 6 Jam | Harga: Rp 350,000</p>
+                        <a href="details.html" class="btn btn-primary">Lihat Detail</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4 course-item" data-category="menengah">
+                <div class="card h-100">
+                    <img src="assets/images/Pythons-property_Watermarked.a888a85a9cd8.avif" class="card-img-top" alt="Data Science Course">
+                    <div class="card-body">
+                        <h5 class="card-title">Python's property(): Add Managed Attributes to Your Classes</h5>
+                        <p class="card-text">Pelajari cara menggunakan property untuk management class.</p>
+                        <p class="text-muted">Durasi: 15 Jam | Harga: Rp 750,000</p>
+                        <a href="details.html" class="btn btn-primary">Lihat Detail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        &copy; 2024 by 22552011247_SYUKRILLAH_TIF-RP-22-CID
+    </footer>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const searchInput = document.getElementById('searchInput');
+        const categoryFilter = document.getElementById('categoryFilter');
+        const coursesList = document.getElementById('coursesList');
+        const courseItems = document.querySelectorAll('.course-item');
+
+        categoryFilter.addEventListener('change', function() {
+            const category = this.value;
+            courseItems.forEach(item => {
+                if (category === 'all' || item.dataset.category === category) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        });
+
+        searchInput.addEventListener('input', function() {
+            const query = this.value.toLowerCase();
+            courseItems.forEach(item => {
+                const title = item.querySelector('.card-title').textContent.toLowerCase();
+                if (title.includes(query)) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+.hero-section {
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}

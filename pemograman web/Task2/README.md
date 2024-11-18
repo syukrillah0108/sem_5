@@ -80,7 +80,7 @@ Komponen **Navbar** digunakan untuk membuat menu navigasi yang responsif.
 
 ```html
 <div class="card" style="width: 18rem;">
-  <img src="images/logo.png" class="card-img-top rounded-circle" alt="...">
+  <img src="images/python.png" class="card-img-top rounded-circle" alt="...">
   <div class="card-body">
     <h5 class="card-title">Pemrograman Dasar</h5>
     <p class="card-text">Pelajari dasar pemrograman mulai dari variabel, kondisi, hingga loop.</p>
@@ -148,7 +148,7 @@ Dengan menggunakan kelas `rounded-circle`, gambar dapat tampil dalam bentuk bula
 **Contoh Gambar Bulat**
 
 ```html
-<img src="images/logo.png" alt="Logo" class="rounded-circle" width="100">
+<img src="images/python.png" alt="Logo" class="rounded-circle" width="100">
 ```
 
 # Tugas Membuat Tampilan
