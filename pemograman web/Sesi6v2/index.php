@@ -16,8 +16,8 @@ echo date('D - M / Y') . "<br/>";
 echo "The time is " . date("h:i:sa");
 
 $database_host = "localhost";
-$database_username = "root";
-$database_password = "";
+$database_username = "user1";
+$database_password = "Password123!";
 $database_db = "utb";
 
 try {
